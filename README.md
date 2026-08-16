@@ -62,7 +62,7 @@ An open learning resource developed for the Government of Canada's Experimentati
 
 <div align="center">
 
-<img src="assets/areas-of-expertise.svg"
+<img src="areas-of-expertise.svg"
      alt="Animated overview of Noushin's areas of expertise"
      width="100%">
 
