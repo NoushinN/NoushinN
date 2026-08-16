@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="title description">
+  <title id="title">Noushin Nabavi — Areas of Expertise</title>
+  <desc id="description">Five animated bars representing R, Python, and reproducible research; data analysis with SQL and visualization; bioinformatics and multi-omics; experimental design; and complexity and systems modelling.</desc>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4968d8"/>
+      <stop offset="1" stop-color="#9c55df"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#24345f" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .panel { fill: #ffffff; stroke: #d8dee8; stroke-width: 1.5; }
+      .heading { fill: #17213d; font: 700 25px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { fill: #36415f; font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .track { fill: #e8ebf7; }
+      .fill {
+        fill: url(#accent);
+        transform-box: fill-box;
+        transform-origin: left center;
+        transform: scaleX(0);
+        animation: reveal 1.25s cubic-bezier(.22,.8,.35,1) forwards;
+      }
+      .bar2 { animation-delay: .12s; }
+      .bar3 { animation-delay: .24s; }
+      .bar4 { animation-delay: .36s; }
+      .bar5 { animation-delay: .48s; }
+      @keyframes reveal { to { transform: scaleX(1); } }
+      @media (prefers-color-scheme: dark) {
+        .panel { fill: #0d1117; stroke: #30363d; }
+        .heading { fill: #f0f3f6; }
+        .label { fill: #c9d1d9; }
+        .track { fill: #252b3d; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .fill { animation: none; transform: scaleX(1); }
+      }
+    </style>
+  </defs>
+
+  <rect class="panel" x="12" y="12" width="976" height="386" rx="22" filter="url(#softShadow)"/>
+  <text class="heading" x="48" y="62">Areas of Expertise</text>
+
+  <text class="label" x="50" y="113">R, Python &amp; Reproducible Research</text>
+  <rect class="track" x="330" y="95" width="610" height="22" rx="11"/>
+  <rect class="fill bar1" x="330" y="95" width="555" height="22" rx="11"/>
+
+  <text class="label" x="50" y="176">Data Analysis, SQL &amp; Visualization</text>
+  <rect class="track" x="330" y="158" width="610" height="22" rx="11"/>
+  <rect class="fill bar2" x="330" y="158" width="525" height="22" rx="11"/>
+
+  <text class="label" x="50" y="239">Bioinformatics &amp; Multi-omics</text>
+  <rect class="track" x="330" y="221" width="610" height="22" rx="11"/>
+  <rect class="fill bar3" x="330" y="221" width="540" height="22" rx="11"/>
+
+  <text class="label" x="50" y="302">Experimental Design</text>
+  <rect class="track" x="330" y="284" width="610" height="22" rx="11"/>
+  <rect class="fill bar4" x="330" y="284" width="500" height="22" rx="11"/>
+
+  <text class="label" x="50" y="365">Complexity &amp; Systems Modelling</text>
+  <rect class="track" x="330" y="347" width="610" height="22" rx="11"/>
+  <rect class="fill bar5" x="330" y="347" width="475" height="22" rx="11"/>
+</svg>
