@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="title description">
   <title id="title">Noushin Nabavi — Areas of Expertise</title>
-  <desc id="description">Five animated bars representing R, Python, and reproducible research; data analysis with SQL and visualization; bioinformatics and multi-omics; experimental design; and complexity and systems modelling.</desc>
+  <desc id="description">Five animated bars representing R, Python, and reproducible research; SQL, Power BI, and data visualization; bioinformatics and multi-omics; experimental design; and complexity and systems modelling.</desc>
 
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
@@ -46,7 +46,7 @@
   <rect class="track" x="330" y="95" width="610" height="22" rx="11"/>
   <rect class="fill bar1" x="330" y="95" width="555" height="22" rx="11"/>
 
-  <text class="label" x="50" y="176">Data Analysis, SQL &amp; Visualization</text>
+  <text class="label" x="50" y="176">SQL, Power BI &amp; Data Visualization</text>
   <rect class="track" x="330" y="158" width="610" height="22" rx="11"/>
   <rect class="fill bar2" x="330" y="158" width="525" height="22" rx="11"/>
 
